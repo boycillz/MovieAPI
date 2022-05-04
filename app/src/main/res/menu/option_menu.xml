@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/menu_bahasa"
+            android:icon="@drawable/ic_settings_black"
+            android:title="@string/bahasa"
+            app:showAsAction="never">
+        </item>
+        <item
+            android:id="@+id/menu_favorite"
+            android:icon="@drawable/ic_favorite_name"
+            android:title="@string/favorite_"
+            app:showAsAction="always">
+        </item>
+        <item
+            android:id="@+id/menu_notification"
+            android:icon="@drawable/ic_notification_name"
+            android:iconTint="@color/white"
+            android:title="@string/notification_">
+        </item>
+        <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/ic_search_name"
+            app:showAsAction="always"
+            android:title="@string/search_movie">
+        </item>
+    </group>
+
+</menu>

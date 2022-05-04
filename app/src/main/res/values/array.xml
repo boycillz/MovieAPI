@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reply_entries_function">
+        <item>Reply</item>
+        <item>Reply to All</item>
+    </string-array>
+    <string-array name="reply_values_function">
+        <item>Reply</item>
+        <item>Reply_All</item>
+    </string-array>
+</resources>

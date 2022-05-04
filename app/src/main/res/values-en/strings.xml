@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Movie API</string>
+        <string name="bahasa">Language</string>
+        <string name="tab_movie">Movies</string>
+        <string name="tab_tv">TV Shows</string>
+        <string name="tv_title">Movie Title</string>
+        <string name="tv_overview">Overview</string>
+        <string name="failed_connect_api">Not Connected to Web API</string>
+        <string name="no_connection_internet">Not Connected, Check Your Internet</string>
+        <string name="date_release">Date Release</string>
+        <string name="rating">Rating</string>
+        <string name="rate_by">Rate By</string>
+        <string name="duration">Duration</string>
+        <string name="bg">background</string>
+        <string name="cover_movie">cover movie</string>
+        <string name="image_cover">Image Cover</string>
+        <string name="favorite_">FAVORITE</string>
+        <string name="succes_">Data Added Succes</string>
+        <string name="failed_">Data Added Failed</string>
+        <string name="delete_">Data Deleted</string>
+        <string name="cancel_delete_">Data Deleted Failed</string>
+        <string name="empty_">Data Empty</string>
+        <string name="tidak_suka">Don\'t Like</string>
+        <string name="film_favorite">Movie Favorite</string>
+        <string name="tvShow_favorite">Tv Shows Favorite</string>
+        <string name="setting_">Settings</string>
+        <string name="content_release">Has been released today!</string>
+        <string name="search_movie">Search Movie</string>
+        <string name="notification_setting">Notification Setings</string>
+        <string name="alert_back_daily_reminder">Reminder for return to App</string>
+        <string name="notification_running">Notification is Running</string>
+        <string name="alert_release_reminder">Release Reminder</string>
+        <string name="notification_stop">Notication Stoppped</string>
+        <string name="notification_">Notifications</string>
+        <string name="content_reminder">Check our App. We\'re missing you!</string>
+        <string name="alert_back_release_reminder">Reminder Showing the movie released today</string>
+        <string name="alert_daily_reminder">Daily Reminder</string>
+    </resources>

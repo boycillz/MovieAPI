@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">API Film</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="tab_movie">Daftar Film</string>
+    <string name="tab_tv">Daftar Acara TV</string>
+    <string name="tv_title">Judul Film</string>
+    <string name="tv_overview">Sinopsis</string>
+    <string name="failed_connect_api">Tidak terhubung ke Web API</string>
+    <string name="no_connection_internet">Tidak terhubung ke Internet</string>
+    <string name="date_release">Tanggal Rilis</string>
+    <string name="rating">Rating</string>
+    <string name="rate_by">Rate oleh</string>
+    <string name="duration">Durasi</string>
+    <string name="bg">background</string>
+    <string name="cover_movie">cover movie</string>
+    <string name="image_cover">Image Cover</string>
+    <string name="favorite_">FAVORIT</string>
+    <string name="succes_">Data Berhasil ditambahkan</string>
+    <string name="failed_">Data gagal ditambahkan</string>
+    <string name="delete_">Data berhasil dihapus</string>
+    <string name="cancel_delete_">Data gagal dihapus</string>
+    <string name="empty_">Data Kosong</string>
+    <string name="tidak_suka">TIDAK SUKA</string>
+    <string name="film_favorite">Film Kesukaan</string>
+    <string name="tvShow_favorite">Acara Tv Kesukaan</string>
+    <string name="setting_">Pengaturan</string>
+    <string name="alert_daily_reminder">Pengingat Harian</string>
+    <string name="alert_back_daily_reminder">Pengingat untuk kembali ke App</string>
+    <string name="alert_release_reminder">Pengingat Rilis</string>
+    <string name="alert_back_release_reminder">Pengingat rilis fim hari ini</string>
+    <string name="notification_">Notifikasi</string>
+    <string name="notification_setting">Pengaturan Notifikasi</string>
+    <string name="notification_running">Notifikasi Berjalan</string>
+    <string name="notification_stop">Notifikasi Berhenti</string>
+    <string name="content_reminder">Ada yang baru nih di App. Cek Yuk!</string>
+    <string name="content_release">Hari ini telah rilis</string>
+    <string name="search_movie">Cari Film</string>
+
+</resources>

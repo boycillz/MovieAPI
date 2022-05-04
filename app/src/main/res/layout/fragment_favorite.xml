@@ -1,0 +1,29 @@
+      throwIfDefaultAlreadySpecified(PROPERTY_RESOLUTION);
+                mPrototype.mDefaults[PROPERTY_RESOLUTION] = insertionIndex;
+            }
+            return this;
+        }
+
+        /**
+         * Sets the minimal margins. These are the minimal margins
+         * the printer physically supports.
+         *
+         * <p>
+         * <strong>Required:</strong> Yes
+         * </p>
+         *
+         * @param margins The margins.
+         * @return This builder.
+         *
+         * @throws IllegalArgumentException If margins are <code>null</code>.
+         *
+         * @see PrintAttributes.Margins
+         */
+        public @NonNull Builder setMinMargins(@NonNull Margins margins) {
+            if (margins == null) {
+                throw new IllegalArgumentException("margins cannot be null");
+            }
+            mPrototype.mMinMargins = margins;
+            return this;
+        }
+
