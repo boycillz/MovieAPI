@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.github.azismihsan.moviefavorite"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:6:5-66
+11-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="io.github.azismihsan.movieapi.READ_DATABASE" />
+12-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:7:5-82
+12-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:7:22-80
+13    <uses-permission android:name="io.github.azismihsan.movieapi.WRITE_DATABASE" />
+13-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:8:5-83
+13-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:8:22-81
+14
+15    <application
+15-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:10:5-38:19
+16        android:allowBackup="true"
+16-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /home/boy/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:14:9-54
+22        android:supportsRtl="true"
+22-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:15:9-35
+23        android:theme="@style/AppTheme" >
+23-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:16:9-40
+24        <receiver android:name="io.github.azismihsan.moviefavorite.widget.FavoriteMovieAppWidget" >
+24-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:19:9-26:20
+24-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:19:19-64
+25            <intent-filter>
+25-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:20:13-22:29
+26                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+26-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:21:17-83
+26-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:21:25-81
+27            </intent-filter>
+28
+29            <meta-data
+29-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:23:13-25:80
+30                android:name="android.appwidget.provider"
+30-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:24:17-58
+31                android:resource="@xml/favorite_movie_app_widget_information" />
+31-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:25:17-78
+32        </receiver>
+33
+34        <activity
+34-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:28:9-34:20
+35            android:name="io.github.azismihsan.moviefavorite.activity.MainActivity"
+35-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:28:19-56
+36            android:theme="@style/AppTheme.AppBarOverlay" >
+36-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:29:13-58
+37            <intent-filter>
+37-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:30:13-33:29
+38                <action android:name="android.intent.MAIN" />
+38-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:31:17-61
+38-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:31:25-59
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:32:17-76
+40-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:32:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:35:9-36:71
+45            android:name="io.github.azismihsan.moviefavorite.widget.StackWidgetService"
+45-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:35:18-59
+46            android:permission="android.permission.BIND_REMOTEVIEWS" />
+46-->/media/boy/DATA D/android/MovieAPI/MovieAPI2/moviefavorite/src/main/AndroidManifest.xml:36:13-69
+47
+48        <provider
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/boy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/boy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+50            android:authorities="io.github.azismihsan.moviefavorite.lifecycle-process"
+50-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/boy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+51            android:exported="false"
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/boy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+52            android:multiprocess="true" />
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/boy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+53    </application>
+54
+55</manifest>
